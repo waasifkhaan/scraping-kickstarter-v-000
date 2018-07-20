@@ -14,7 +14,6 @@ def create_project_hash
       :description => project.css("p.bbcard_blurb").text,
       :location => project.css("ul.project-meta span.location-name").text,
       :percent_funded => project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i
-      binding.pry
     }
   end
  
@@ -42,8 +41,8 @@ end
 
 
 
-# # project title :project =   kickstarter.css("li.project grid_4")
-#                   title = project.css("h2.bbcard_name a target").text
-#                 title-image : project.css("div.project-thumbnail a img").attribute("src").value
+# project title :project =   kickstarter.css("li.project grid_4")
+                  title = project.css("h2.bbcard_name a target").text
+                 title-image : project.css("div.project-thumbnail a img").attribute("src").value
                  
-#                 location : project.css(a data-location span.location-name).text
+                 location : project.css(a data-location span.location-name).text
