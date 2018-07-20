@@ -2,7 +2,7 @@
 require 'nokogiri'
 require 'pry'
 
-class TexasGovernorsCliApp::Scraper
+class Scraper
   attr_accessor :doc, :name, :profile_url, :born_death_date, :age, :term_in_office, :party_affiliation, :elected_year
   
   def get_page
