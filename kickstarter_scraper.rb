@@ -41,8 +41,8 @@ end
 
 
 
-# project title :project =   kickstarter.css("li.project grid_4")
-                  title = project.css("h2.bbcard_name a target").text
-                 title-image : project.css("div.project-thumbnail a img").attribute("src").value
+# # project title :project =   kickstarter.css("li.project grid_4")
+#                   title = project.css("h2.bbcard_name a target").text
+#                 title-image : project.css("div.project-thumbnail a img").attribute("src").value
                  
-                 location : project.css(a data-location span.location-name).text
+#                 location : project.css(a data-location span.location-name).text
