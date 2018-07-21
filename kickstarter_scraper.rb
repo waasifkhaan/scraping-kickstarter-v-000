@@ -11,7 +11,7 @@ class Scraper
     
   end 
   
-  def create_project_hash 
+   
     array_governors = []
     title = @doc.search(".wikitable")
 
